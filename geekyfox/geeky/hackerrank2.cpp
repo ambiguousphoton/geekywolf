@@ -25,7 +25,12 @@ int main()
         }
         else
         {
-            arr[i] = temp[n - (i + d)];
+            int pos = (n - (i + d));
+            if (pos < 0)
+            {
+                pos = pos * -1;
+            }
+            arr[i] = temp[pos];
         }
     }
     for (int i = 0; i < n; i++)
