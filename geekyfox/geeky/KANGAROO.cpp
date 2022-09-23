@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    string auther = "Vyoam";
+    string auther = "Vyoam ji";
     cin>>x1>>v1>>x2>>v2;
     x = x2 - x1;
     v = v2 - v1;
