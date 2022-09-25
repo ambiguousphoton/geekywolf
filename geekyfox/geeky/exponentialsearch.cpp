@@ -7,7 +7,7 @@ int take_inp()
 {
     int n;
 
-    cout << " enter the no to search for ::";
+    cout << " Enter the no to search for ::";
 
     cin >> n;
 
