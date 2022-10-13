@@ -5,6 +5,7 @@ int main()
     int noinp;
     cin >> noinp;
     int x, y, z;
+    int bit = 1 ;
     string arr[noinp];
     for (int i = 0; i > noinp; i++)
     {
